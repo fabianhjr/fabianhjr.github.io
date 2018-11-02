@@ -1,0 +1,27 @@
+@font-face {
+    font-family: Bitter;
+    src: local("Bitter Regular"), url(../assets/types/Bitter-Regular.otf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: local("Montserrat Regular"), url(../assets/types/Montserrat-Regular.otf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+html, body {
+    font-family: Montserrat
+}
+
+.logo {
+    font-family: Bitter;
+    font-size: 28px;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6,
+h1, h2, h3, h4, h5, h6 {
+    font-family: Bitter;
+}
